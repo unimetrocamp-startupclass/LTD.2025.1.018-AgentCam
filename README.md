@@ -41,7 +41,7 @@ Substituir o trabalho manual de vigilantes humanos utilizando agentes de intelig
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/agentcam.git
+git clone https://github.com/unimetrocamp-startupclass/LTD.2025.1.018-AgentCam.git
 
 # Acesse a pasta do projeto
 cd agentcam
@@ -50,4 +50,4 @@ cd agentcam
 pip install -r requirements.txt
 
 # Execute o sistema
-python nome_do_arquivo_principal.py
+python v2.py
