@@ -50,4 +50,4 @@ cd agentcam
 pip install -r requirements.txt
 
 # Execute o sistema
-python v2.py
+python3 v2.py
