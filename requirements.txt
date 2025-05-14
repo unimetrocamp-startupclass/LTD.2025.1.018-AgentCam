@@ -1,0 +1,6 @@
+crewai==0.119.0
+crewai_tools==0.45.0
+opencv_contrib_python==4.11.0.86
+opencv_python==4.11.0.86
+pydantic==2.11.4
+python-dotenv==1.1.0
