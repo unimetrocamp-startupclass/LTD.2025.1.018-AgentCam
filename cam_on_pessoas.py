@@ -10,11 +10,12 @@ import cv2
 hog = cv2.HOGDescriptor()
 hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 
-#cap = cv2.VideoCapture('http://108.30.103.58:8082/mjpg/video.mjpg?size=1')
+cap = cv2.VideoCapture(0)
+# cap = cv2.VideoCapture('http://108.30.103.58:8082/mjpg/video.mjpg?size=1')
 # Usando camera publica 1 de NY
 
 
-cap = cv2.VideoCapture('http://72.43.190.171:81/mjpg/video.mjpg?size=1')
+#cap = cv2.VideoCapture('http://72.43.190.171:81/mjpg/video.mjpg?size=1')
 # Usando camera publica 2 de NY
 
 if not cap.isOpened():

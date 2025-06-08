@@ -1,5 +1,3 @@
-# LTD.2025.1.018-AgentCam
-
 # AgentCam
 
 O *AgentCam* é um sistema de monitoramento inteligente que utiliza *Python* e a biblioteca *OpenCV* para capturar vídeos de câmeras públicas, analisar detecções de pessoas e preparar essas informações para avaliação automatizada por agentes de IA.
@@ -26,28 +24,30 @@ Substituir o trabalho manual de vigilantes humanos utilizando agentes de intelig
 
 - Python 3.12
 - OpenCV
-- Framework CrewAI (em desenvolvimento)
+- Framework CrewAI
 - Outros pacotes listados em requirements.txt
 
 ## Como executar
 
-> Ainda em desenvolvimento. No momento, é necessário apenas instalar as dependências e executar o script principal.
+> Instalar as dependências e executar o script principal.
 
 ### Requisitos
 
 - Python 3.12 instalado
 
+- Chave API (OpenAI ou outro provider).
+
 ### Instalação
 
 ```bash
 # Clone o repositório
-git clone https://github.com/unimetrocamp-startupclass/LTD.2025.1.018-AgentCam.git
+git clone https://github.com/unimetrocamp-startupclass/LTD.2025.1.018-AgentCam
 
 # Acesse a pasta do projeto
-cd agentcam
+cd LTD.2025.1.018-AgentCam
 
 # Instale as dependências
 pip install -r requirements.txt
 
 # Execute o sistema
-python3 v2.py
+python main.py
