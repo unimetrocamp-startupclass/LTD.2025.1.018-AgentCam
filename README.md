@@ -1,26 +1,43 @@
-# AgentCam
+# 👁️ AgentCam – Monitoramento Inteligente com IA
 
-O *AgentCam* é um sistema de monitoramento inteligente que utiliza *Python* e a biblioteca *OpenCV* para capturar vídeos de câmeras públicas, analisar detecções de pessoas e preparar essas informações para avaliação automatizada por agentes de IA.
+**AgentCam** é um sistema de monitoramento de câmeras com suporte a múltiplas fontes e integração com inteligência artificial, utilizando OpenCV para reconhecimento em tempo real.
 
-## Objetivo
+---
 
-Substituir o trabalho manual de vigilantes humanos utilizando agentes de inteligência artificial capazes de analisar câmeras de segurança e avaliar eventos com precisão, agilidade e autonomia.
+## 📌 O que é o AgentCam?
 
-## Funcionalidades atuais
+O AgentCam é um projeto modular e adaptável que visa integrar visão computacional com agentes inteligentes, permitindo reações automáticas com base em eventos captados por vídeo.
 
-- Captura de vídeos de câmeras públicas em tempo real
-- Armazenamento dos vídeos em takes organizados
-- Detecção de pessoas nos vídeos usando OpenCV
-- Avaliação inicial das câmeras com base no movimento de pessoas
+- Suporte a múltiplas fontes de vídeo (IP, USB etc.)
+- Reconhecimento de pessoas com OpenCV
+- Projetado para funcionar com agentes de IA
+- Flexível e personalizável
 
-## Próximos passos
+---
 
-- Implementar sistema de monitoramento em blocos de 5 minutos
-- Enviar takes para agentes analisarem os frames dos vídeos
-- Integração com o *CrewAI* para orquestração entre agentes
-- Criação de uma pipeline autônoma onde os agentes substituem a figura do vigilante humano
+## 🎯 Objetivo do Projeto
 
-## Tecnologias utilizadas
+> Dar “olhos” e “interpretação” em tempo real para agentes inteligentes.
+
+- Criar um sistema autônomo de vigilância com base em IA
+- Integrar captura de vídeo com tomada de decisão automatizada
+- Explorar diferentes arquiteturas de captura e análise de imagens
+
+---
+
+## 🧪 Abordagens em Estudo
+
+### ✅ Opção 1 – Análise em Tempo Real
+- Agentes analisam os frames diretamente via OpenCV
+- Resposta imediata a eventos
+- Maior complexidade de integração
+
+### ⏳ Opção 2 – Processamento por Lotes
+- Vídeos capturados e enviados para análise posterior
+- Implementação mais simples
+- Introduz delay nas reações dos agentes
+
+## 🛠️ Tecnologias utilizadas
 
 - Python 3.12
 - OpenCV
